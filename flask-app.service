@@ -5,6 +5,7 @@ After=network.target
 [Service]
 WorkingDirectory=/home/skyprogram/SkyProGram
 ExecStart=/home/skyprogram/venv/bin/python3 -m gunicorn app:app -b 0.0.0.0:80 -w 4
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
