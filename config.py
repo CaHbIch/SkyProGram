@@ -1,5 +1,5 @@
 class Config(object):
-    DEBUG = True
+    DEBUG = False
     SECRET_HERE = '249y823r9v8238r9u'
     #SQLALCHEMY_DATABASE_URI = 'postgresql://skyprogram:skyprogram@localhost/skyprogram'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///skyprogram.db'
